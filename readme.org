@@ -1,0 +1,15 @@
+* Dream Stack
+This is the API kitchen sink. Incorporating everything I know to be cool and useful in some way, possibly not all together.
+
+- Its event-sourced based
+- Uses Kafka
+- Microservices, all scalable
+- gRPC as the atoms of the system, little lambdas
+- Messages trigger lambdas
+- GraphQL as the scheduler of those atoms
+- REST as an interface, through a dynamic ( ie: you can configure it via the API ) gateway
+- Map REST shapes to GraphQL queries
+- Postgres as an index
+- Domain logic handled by pure functions, including RBAC
+
+** Domain
